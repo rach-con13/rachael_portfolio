@@ -1,0 +1,27 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  color: #4277bd;
+  font-weight: bold;
+  padding-left: 4rem;
+  font-size: 1.2rem;
+}
+
+.nav {
+  background: #f9a72a;
+  font-size: 1.2rem;
+  display: flex;
+  font-weight: bold;
+  color: white;
+}
+.navItem {
+  padding: 2rem;
+}
+.navItem:not(:first-child) {
+  padding-left: 1rem;
+}
